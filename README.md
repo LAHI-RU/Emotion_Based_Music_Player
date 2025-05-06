@@ -168,5 +168,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or feedback, please contact:
-- Your Name - [your.email@example.com](mailto:your.email@example.com)
-- Project Link: [https://github.com/yourusername/emotion-based-music-player](https://github.com/yourusername/emotion-based-music-player)
+- Your Name - [Lahiru Bandara](mailto:lahiiru.dananjaya@gmail.com)
+- Project Link: [https://github.com/LAHI-RU/emotion-based-music-player](https://github.com/LAHI-RU/emotion-based-music-player)
