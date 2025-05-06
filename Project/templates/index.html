@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion-Based Music Player</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotion-Based Music Player</h1>
+        
+        <div class="player-container">
+            <div class="webcam-container">
+                <h2>Emotion Detection</h2>
+                <div class="video-feed">
+                    <img src="{{ url_for('video_feed') }}" alt="Video Feed">
+                </div>
+                <div class="controls">
+                    <button id="startBtn" class="btn">Start Detection</button>
+                    <button id="stopBtn" class="btn">Stop Detection</button>
+                </div>
+                <div class="emotion-display">
+                    <h3>Detected Emotion: <span id="emotionText">None</span></h3>
+                </div>
+            </div>
+            
+            <div class="music-container">
+                <h2>Music Player</h2>
+                <div class="album-art">
+                    <img id="albumArt" src="{{ url_for('static', filename='img/default-album.png') }}" alt="Album Art">
+                </div>
+                <div class="track-info">
+                    <h3 id="trackName">No track playing</h3>
+                    <p id="artistName"></p>
+                    <p id="albumName"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
